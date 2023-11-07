@@ -1,0 +1,26 @@
+1. Emergency Services: Priority queues can be used in emergency response systems to prioritize and dispatch emergency vehicles or medical services based on the severity of incidents.
+2. Task Scheduling: In operating systems, a priority queue can be used to manage the scheduling of processes or tasks. Tasks with higher priority levels get executed before lower-priority ones.
+3. Elevator Control: Elevator systems can prioritize elevator requests based on factors like floor urgency and passenger demand, using priority queues to optimize elevator operation.
+4. Airport Runway Management: Air traffic control systems use priority queues to manage the allocation of runways and air traffic based on factors such as flight urgency and safety.
+5. Disaster Response Planning: During natural disasters, priority queues can be used to coordinate and prioritize the dispatch of rescue and relief teams to affected areas based on the severity of the situation.
+
+
+1. Problem Solving: Data structures are essential tools for solving a wide range of computational problems. They provide a systematic way to represent and manipulate data, making problem-solving more structured and manageable.
+2. Memory Management: Data structures help in efficient memory management. By organizing data in specific ways, they can minimize memory usage, reduce fragmentation, and optimize memory allocation.
+3. Efficient Data Organization: Data structures provide efficient ways to organize and store data. They enable the storage of data in a structured format, allowing for easy access, modification, and retrieval.
+
+
+Analyzing the complexity of recursive functions involves determining how the function's time and space requirements grow as a function of the input size. 
+suppose consider the code for a function in c for factorial:
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+Time Complexity:
+As the function calls itself recursively for n times till n<=1, Time complexity of the factorial function is O(n) 
+
+The space complexity is determined by the maximum depth of the recursive call stack. In this case, the maximum depth is n (when n is the largest input). Therefore, the space complexity is O(n).
+
